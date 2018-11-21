@@ -1,4 +1,4 @@
-# hanap
+# Laravel Ecommerce API's and CMS
 Laravel package API Result filtering, sorting &amp; searching.
 
 ## Installation
