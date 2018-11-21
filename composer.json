@@ -25,10 +25,10 @@
     },
     "autoload": {
         "psr-0": {
-            "MarkVilludo\\ImageUpload\\": "src/"
+            "MarkVilludo\\laravelEcommerce\\": "src/"
         },
         "files": [
-            "src/helper.php"
+            "src/helpers.php"
         ]
     },
     "minimum-stability": "dev"
