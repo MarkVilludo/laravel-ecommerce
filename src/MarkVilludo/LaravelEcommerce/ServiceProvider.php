@@ -15,21 +15,20 @@ class ServiceProvider extends BaseServiceProvider {
     {
     
         //publish views
-       $this->publishes([
+        $this->publishes([
            __DIR__.'/../views' => resource_path('/views'),
         ],'views');
 
         // Publish the migration
         $this->publishes([
-           __DIR__.'/../migration' => $this->app->databasePath().'/migrations/',
+           __DIR__.'../../migrations' => $this->app->databasePath().'/migrations/',
         ],'views');
 
-           //publish also assets in public folder for the css and js plugins
+        //publish also assets in public folder for the css and js plugins
          $this->publishes([
-           __DIR__.'/../assets' => public_path('/assets'),
+           __DIR__.'/assets' => public_path('/assets'),
         ],'assets');
         //end
-
     }
 
     /**

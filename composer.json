@@ -10,7 +10,9 @@
     ],
     "authors": [
         {
-            "name": "Mark Villudo"
+            "name": "Mark Villudo",
+            "email": "markanthony.villudo@gmail.com",
+            "role": "Back end developer"
         }
     ],
     "require": {
