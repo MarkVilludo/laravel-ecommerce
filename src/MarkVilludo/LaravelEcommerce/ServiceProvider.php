@@ -1,9 +1,8 @@
 <?php 
 
-namespace Mannysoft\Hanap;
+namespace MarkVilludo\LaravelEcommerce;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
-use Mannysoft\Hanap\Hanap;
 
 class ServiceProvider extends BaseServiceProvider {
     
@@ -14,7 +13,17 @@ class ServiceProvider extends BaseServiceProvider {
      */
     public function boot()
     {
-       
+    
+        //publish views
+       $this->publishes([
+           __DIR__.'/../views' => resource_path('/views'),
+        ],'views');
+
+        // Publish the migration
+        $this->publishes([
+           __DIR__.'/../migration' => $this->app->databasePath().'/migrations/',
+        ],'views');
+
     }
 
     /**
