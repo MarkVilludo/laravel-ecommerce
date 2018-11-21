@@ -22,7 +22,6 @@
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "^5.4.0",
         "mannysoft/api-form-request": "dev-master",
-        "mark-villudo/laravel-user-management": "dev-master",
         "paypal/rest-api-sdk-php": "^1.13"
     },
     "require-dev": {
