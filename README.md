@@ -6,7 +6,7 @@ Laravel package API Result filtering, sorting &amp; searching.
 Require this package with composer.
 
 ```shell
-composer require mannysoft/hanap
+composer require markvilludo/laravel-ecommerce
 ```
 
 Laravel 5.5 uses Package Auto-Discovery, so doesn't require you to manually add the ServiceProvider.
