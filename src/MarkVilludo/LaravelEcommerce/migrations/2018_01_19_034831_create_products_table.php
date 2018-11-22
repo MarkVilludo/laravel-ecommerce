@@ -19,7 +19,7 @@ class CreateProductsTable extends Migration
             $table->integer('sub_category_id')->nullable()->index(); //Electronic device, Mens fashion, Women fashion, Grocery,pets, fashion accessories, etc
             $table->integer('child_sub_category_id')->nullable()->index(); //Product category ex Watch, Shirt, Dress, Shoes ,etc
             $table->integer('brand_id')->nullable()->index(); //
-            $table->integer('merchant_id')->nullable() //refers to user id of a merchant
+            $table->integer('merchant_id')->nullable(); //refers to user id of a merchant
             $table->text('short_description')->nullable();
             $table->text('description')->nullable();
             $table->string('warranty_type')->nullable();

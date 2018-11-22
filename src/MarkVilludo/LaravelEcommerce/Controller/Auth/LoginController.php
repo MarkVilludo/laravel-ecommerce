@@ -40,13 +40,9 @@ class LoginController extends Controller
     }
     public function login()
     {
+
         if (Auth::attempt(['email' => request('email'), 'password' => request('password')])) {
             $user = Auth::user();
-
-            $token = $user->createToken('FS21')->accessToken;
-            
-            //Store token after successful login
-            session(['token' => $token]);
 
             if (auth()->user()->status) {
                 $data['message'] = 'Login successful';
