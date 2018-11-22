@@ -19,12 +19,30 @@ php artisan serve
 
 ```
 ## Installation
-//publish all helpers, controller, models, resources, views, routes and assets
+//publish all helpers, controller, models, resources, views, routes, migration and assets
 
 ```
 
 php artisan vendor:publish
 
+```
+
+## Migrate database tables.
+
+//Setup ``.env`` file change database name. run this command after success to setup enviroment.
+//Migrate also the permissions table under service provider of ``MarkVilludo\Permissions\``.
+
+```
+php artisan migrate
+
+```
+
+## Seed the initial user, modules, product contents, categories, and etc
+
+```
+
+  php artisan db:seed
+  
 ```
 
 ## Include Ecommerce Routes API AND WEB
