@@ -18,3 +18,11 @@ Laravel 5.5 and above uses Package Auto-Discovery, so doesn't require you to man
 php artisan serve
 
 ```
+## Installation
+//publish all helpers, controller, models, resources, views, routes and assets
+
+```
+
+php artisan vendor:publish
+
+```
