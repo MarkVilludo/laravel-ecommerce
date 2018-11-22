@@ -5,7 +5,7 @@
                 <!-- LOGO -->
                 <div class="topbar-left">
                     <div class="text-center">
-                        <a href="index.html" class="logo"><i class="mdi mdi-radar"></i> <span>FS21</span></a>
+                        <a href="index.html" class="logo"><i class="mdi mdi-radar"></i> <span>Ecommerce</span></a>
                     </div>
                 </div>
 
