@@ -26,3 +26,18 @@ php artisan serve
 php artisan vendor:publish
 
 ```
+
+## Include Ecommerce Routes API AND WEB
+//in routes/api.php
+//Add this below 
+```
+include_once('api_ecommerce.php');
+
+```
+
+//in routes/web.php
+//Add this below 
+```
+include_once('web_ecommerce.php');
+
+```
