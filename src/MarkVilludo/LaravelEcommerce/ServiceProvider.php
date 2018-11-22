@@ -56,6 +56,10 @@ class ServiceProvider extends BaseServiceProvider {
            __DIR__.'/Resources' => 'app/Http/Resources',
         ],'resources');
 
+        //helpers
+        $this->publishes([
+           __DIR__.'/helpers' => 'app/Helpers',
+        ],'helpers');
     }
 
     /**
