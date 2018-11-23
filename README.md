@@ -59,3 +59,22 @@ include_once('api_ecommerce.php');
 include_once('web_ecommerce.php');
 
 ```
+
+## Make helper auto load.
+//Edit your composer.json
+//in ``autoload`` include or replace with this code.
+```
+ "autoload": {
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/Helpers/helper.php",
+            "app/Helpers/activity.php"
+        ]
+    },
+``
