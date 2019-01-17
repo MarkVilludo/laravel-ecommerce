@@ -1,5 +1,5 @@
 # Laravel Ecommerce API's and CMS
-Laravel package API Result filtering, sorting &amp; searching.
+Laravel package API and CMS for ecommerce
 
 ## Installation
 
